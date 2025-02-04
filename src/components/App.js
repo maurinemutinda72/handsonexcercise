@@ -16,7 +16,7 @@ const App = () => {
         alt="Sample" 
         style={{ width: "300px", borderRadius: "10px" }} 
       />
-      <p>This is an image description.</p>
+      <p>Adorable puppy- please take me.</p>
       <button 
         onClick={handleClick} 
         style={{
