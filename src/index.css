@@ -1,0 +1,72 @@
+/* Global Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffdab9; /* Peach color */
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* App Container */
+.app-container {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.app-container:hover {
+  transform: scale(1.02);
+}
+
+/* Image Styling */
+.image-container img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Button Styling */
+button {
+  background: linear-gradient(to right, #ff6f61, #ff8c69);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 15px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 5px 15px rgba(255, 120, 150, 0.3);
+}
+
+button:hover {
+  background: linear-gradient(to right, #ff8c69, #ff6f61);
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Counter Styling */
+.counter-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #d9534f;
+}
